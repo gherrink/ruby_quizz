@@ -1,4 +1,38 @@
 Rails.application.routes.draw do
+  get 'score/new'
+
+  get 'score/index'
+
+  get 'score/show'
+
+  get 'categorycontroller/new'
+
+  get 'categorycontroller/create'
+
+  get 'categorycontroller/update'
+
+  get 'categorycontroller/edit'
+
+  get 'categorycontroller/destroy'
+
+  get 'categorycontroller/index'
+
+  get 'categorycontroller/show'
+
+  get 'questioncontroller/new'
+
+  get 'questioncontroller/create'
+
+  get 'questioncontroller/update'
+
+  get 'questioncontroller/edit'
+
+  get 'questioncontroller/destroy'
+
+  get 'questioncontroller/index'
+
+  get 'questioncontroller/show'
+
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
