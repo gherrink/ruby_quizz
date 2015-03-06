@@ -5,33 +5,33 @@ Rails.application.routes.draw do
 
   get 'score/show'
 
-  get 'categorycontroller/new'
+  get 'category/new'
 
-  get 'categorycontroller/create'
+  get 'category/create'
 
-  get 'categorycontroller/update'
+  get 'category/update'
 
-  get 'categorycontroller/edit'
+  get 'category/edit'
 
-  get 'categorycontroller/destroy'
+  get 'category/destroy'
 
-  get 'categorycontroller/index'
+  get 'category/index'
 
-  get 'categorycontroller/show'
+  get 'category/show'
 
-  get 'questioncontroller/new'
+  get 'question/new'
 
-  get 'questioncontroller/create'
+  get 'question/create'
 
-  get 'questioncontroller/update'
+  get 'question/update'
 
-  get 'questioncontroller/edit'
+  get 'question/edit'
 
-  get 'questioncontroller/destroy'
+  get 'question/destroy'
 
-  get 'questioncontroller/index'
+  get 'question/index'
 
-  get 'questioncontroller/show'
+  get 'question/show'
 
   get 'welcome/index'
 
